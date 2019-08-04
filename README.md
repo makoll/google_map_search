@@ -1,0 +1,2 @@
+# google_map_search
+カーソルで選択した範囲をGoogleMapで検索するChrome Extensionです
