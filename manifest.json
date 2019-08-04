@@ -1,0 +1,15 @@
+{
+  "name": "google_map_search",
+  "manifest_version": 2,
+  "version": "1.0",
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "js": ["content_script.js"],
+      "matches": ["http://*/*", "https://*/*"]
+    }
+  ]
+}
